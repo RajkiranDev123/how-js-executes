@@ -8,6 +8,9 @@ console.log("global execution context ends");
 var globalFunction = function () {
   console.log("inside global function");
 };
+// function globalFunction() {
+//   console.log("inside global function");
+// }
 
 // whenever a js code is run , gec is created and it has two phases : memory and code phase
 
